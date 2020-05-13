@@ -1,6 +1,6 @@
 # 开源模块介绍
 
-### `Mytable`
+### [`Mytable`](./Mystring.lua)
 >table补充函数库
 
 `table.clone`表克隆</br>
