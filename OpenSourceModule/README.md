@@ -1,6 +1,6 @@
 # 开源模块介绍
 
-### [`Mytable`](./Mystring.lua)
+### [`Mytable`](./Mytable.lua)
 >table补充函数库
 
 `table.clone`表克隆</br>
@@ -15,7 +15,7 @@
 `table.toNumberIndex`表转数字索引形式</br>
 `table.getFirst`获得表的第一个键值对（一般用于table.toNumberIndex后获得表内数据）</br>
 
-### `Mystring`
+### [`Mystring`](./Mystring.lua)
 >string补充函数库
 
 `string.findTable`按表查找</br>
