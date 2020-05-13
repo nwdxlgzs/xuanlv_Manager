@@ -28,5 +28,8 @@
 `string.unLuaSymbol`lua抗转义</br>
 `string.gkeepUrl`截取URL(仅http和https)</br>
 `string.guessFileName`获取基于URL获得文件名（luajava）</br>
-`string.keepDomainName`基于URL截取域名/br>
+`string.keepDomainName`基于URL截取域名</br>
+`string.getExtensionName`通过路径获得拓展名</br>
+`string.getExtensionNameByFile`通过文件名获得拓展名</br>
+`string.getMD5`获得字符串MD5</br>
 
