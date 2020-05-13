@@ -1,6 +1,7 @@
 # 开源模块介绍
 ### `Mytable`
 >table补充函数库
+
 `table.clone`表克隆，
 `table.getLength`表长度，
 `table.mixTable`表混合，
