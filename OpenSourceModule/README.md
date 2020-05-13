@@ -1,4 +1,5 @@
 # 开源模块介绍
+
 ### `Mytable`
 >table补充函数库
 
@@ -13,11 +14,19 @@
 `table.shallowClone`表浅克隆</br>
 `table.toNumberIndex`表转数字索引形式</br>
 `table.getFirst`获得表的第一个键值对（一般用于table.toNumberIndex后获得表内数据）</br>
+
 ### `Mystring`
 >string补充函数库
+
 `string.findTable`按表查找</br>
 `string.equalTable`按表完整匹配（table.find）</br>
 `string.findStartsWithTable`按表匹配开始（luajava）</br>
 `string.findEndsWithTable`按表匹配结尾（luajava）</br>
-`string.gsubByTable`按表匹配结尾（luajava）</br>
+`string.gsubByTable`按表批量gsub</br>
+`string.decodeURL`URL解码</br>
+`string.encodeURL`URL编码</br>
+`string.unLuaSymbol`lua抗转义</br>
+`string.gkeepUrl`截取URL(仅http和https)</br>
+`string.guessFileName`获取基于URL获得文件名（luajava）</br>
+`string.keepDomainName`基于URL截取域名/br>
 
