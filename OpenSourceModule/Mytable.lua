@@ -151,7 +151,19 @@ table.getFirst=function(t)
     return nil,nil
   end
 end
-
+--表k.v浅层互换
+table.exchange=function(t)
+  if nil == t then return nil end
+  local res = {}
+  for k,v in pairs(t) do
+    if 'table' == type(v) then
+      res[k] = {}
+     else
+      res[v] = k
+    end
+  end
+  return res
+end
 
 
 
