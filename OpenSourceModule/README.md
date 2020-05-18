@@ -14,6 +14,7 @@
 `table.shallowClone`表浅克隆</br>
 `table.toNumberIndex`表转数字索引形式</br>
 `table.getFirst`获得表的第一个键值对（一般用于table.toNumberIndex后获得表内数据）</br>
+`table.exchange`表k.v浅层互换</br>
 
 ### [`Mystring`](./Mystring.lua)
 >string补充函数库
