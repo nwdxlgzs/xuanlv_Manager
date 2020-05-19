@@ -4,4 +4,4 @@
 # 开源情况
 >目前免费共享部分（androlua+）[lua函数（补充）库](https://github.com/nwdxlgzs/xuanlv_Manager/tree/master/OpenSourceModule)
 # 一点私事
-如果你是`bin`或者`吹牛儿`，你想要源码我可以免费直接给你，反正lua效率注定他不会太好，我的技术也有限，做这个主要是研究lua。另外，强烈希望一个管理器能支持除了sh外的脚本，比如lua。这样不是更强吗。。。
+如果你是[`bin`](https://github.com/L-JINBIN)或者[`吹牛儿`](https://github.com/githubXiaowangzi)，你想要源码我可以免费直接给你，反正lua效率注定他不会太好，我的技术也有限，做这个主要是研究lua。另外，强烈希望一个管理器能支持除了sh外的脚本，比如lua。这样不是更强吗。。。
