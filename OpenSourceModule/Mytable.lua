@@ -151,7 +151,7 @@ table.getFirst=function(t)
     return nil,nil
   end
 end
---表k.v浅层互换
+--表浅层k,v互换
 table.exchange=function(t)
   if nil == t then return nil end
   local res = {}
@@ -163,6 +163,17 @@ table.exchange=function(t)
     end
   end
   return res
+end
+--表(浅层数组)去重
+table.keepOne=function(T)
+  local t,Tt={},{}
+  for k,v in pairs(T) do
+    t[v]=true
+  end
+  for k,v in pairs(t) do
+    table.insert(Tt,k)
+  end
+  return Tt
 end
 
 
